@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Pijarivo">
+  <defs>
+    <linearGradient id="bg" x1="14" y1="82" x2="82" y2="14" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ff4f3e"/>
+      <stop offset=".56" stop-color="#ff7a1a"/>
+      <stop offset="1" stop-color="#ffc857"/>
+    </linearGradient>
+  </defs>
+  <rect width="96" height="96" rx="24" fill="#fff7f1"/>
+  <rect x="8" y="8" width="80" height="80" rx="22" fill="url(#bg)"/>
+  <path d="M31 72V24h26.7C70.3 24 79 31.7 79 42.8S70.3 61.6 57.7 61.6H46v10.4H31Z" fill="#fff"/>
+  <path d="M46 36v13.5h10.8c4.7 0 7.7-2.7 7.7-6.8S61.5 36 56.8 36H46Z" fill="#ff7a1a"/>
+  <path d="M70 13 64.7 28.3l14.7-3.3L59.5 61l5-19.6L52.2 44.5 70 13Z" fill="#3a1734"/>
+</svg>
