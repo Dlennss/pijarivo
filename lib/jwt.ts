@@ -1,4 +1,4 @@
-export type JwtClaims = { sub?: number | string; role?: string; iat?: number; exp?: number };
+export type JwtClaims = { sub?: number | string; iss?: string; role?: string; iat?: number; exp?: number };
 
 function base64UrlToString(b64url: string): string {
   const pad = b64url.length % 4;

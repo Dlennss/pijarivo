@@ -1,5 +1,8 @@
 # Dokumentasi Jaringan Retail Pijarivo
 
+Konfigurasi domain dan deployment server `pijarivo.com` tersedia di
+[deployment/README.md](deployment/README.md).
+
 README ini menjelaskan modul jaringan retail pada aplikasi Pijarivo, mulai dari role, struktur downline, komisi, withdraw, endpoint, sampai tabel database yang dipakai.
 
 ## Ringkasan

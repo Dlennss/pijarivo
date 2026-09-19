@@ -9,6 +9,8 @@
     "dev": "node scripts/dev-fixed.mjs 3000",
     "build": "next build",
     "start": "next start",
+    "prepare:standalone": "node scripts/prepare-standalone.mjs",
+    "start:production": "node .next/standalone/server.js",
     "lint": "eslint"
   },
   "dependencies": {

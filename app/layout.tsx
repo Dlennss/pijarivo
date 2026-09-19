@@ -3,7 +3,7 @@ import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://pijarivo.local"),
+  metadataBase: new URL("https://pijarivo.com"),
   title: {
     default: "Pijarivo | Top Up Digital",
     template: "%s | Pijarivo",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Pijarivo",
     description: "Website isi pulsa, paket data, e-wallet, token listrik, game, dan PPOB dalam satu tempat.",
-    url: "https://pijarivo.local",
+    url: "https://pijarivo.com",
     siteName: "Pijarivo",
     type: "website",
     images: [

@@ -39,7 +39,7 @@ function normalizeGoogleNext(raw: string, fallback = "/user") {
     try {
       const url = current.startsWith("http://") || current.startsWith("https://")
         ? new URL(current)
-        : new URL(current, "https://pijarivo.local");
+        : new URL(current, "https://pijarivo.com");
       if (url.pathname === "/login") {
         const nested = (url.searchParams.get("callbackUrl") || "").trim();
         if (nested) { current = nested; continue; }
