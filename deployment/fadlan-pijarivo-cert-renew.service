@@ -1,0 +1,8 @@
+[Unit]
+Description=Renew pijarivo TLS certificate in Nginx Proxy Manager
+Requires=docker.service
+After=docker.service network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/docker exec nginx_proxy_manager certbot renew --cert-name fadlan-pijarivo --quiet --deploy-hook "nginx -t && nginx -s reload"
